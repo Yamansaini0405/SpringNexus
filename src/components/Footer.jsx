@@ -67,6 +67,7 @@ const Footer = () => {
               <p>+91 8941092513</p>
             </div>
           </div>
+          
         </div>
       </div>
       <hr className="md:my-8 my-2" />
@@ -82,6 +83,9 @@ const Footer = () => {
             TERMS AND CONDITIONS
           </a>
         </div>
+        <p className="font-bold text-md mt-1">
+            Develop by Yaman❤️
+        </p>
       </div>
     </footer>
   );
