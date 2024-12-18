@@ -41,7 +41,7 @@ function Home() {
               </button>
             </div>
           </div>
-          <div>
+          <div className="flex justify-center items-center">
             <Lottie
               className="md:h-[25rem] md:w-[100%] w-[90%] h-[20rem] "
               animationData={HomeAnimation}

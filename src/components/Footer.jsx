@@ -14,7 +14,7 @@ const Footer = () => {
             The world where you find all like minded people.
           </p>
         </div>
-        <div className="mb-8 md:mb-0 m-auto">
+        <div className="mb-8 md:mb-0 md:m-auto px-4 md:px-0">
           <h4 className="md:text-lg text-md font-bold md:mb-4 mb-1">JOIN US</h4>
           <p className="text-sm">DIRECT TO YOUR INBOX</p>
           <div className="flex items-center mt-4">
@@ -28,8 +28,8 @@ const Footer = () => {
             </button>
           </div>
         </div>
-        <div className="flex space-x-12">
-          <div className="flex flex-col  ">
+        <div className="flex space-x-12 px-4 md:px-0">
+          <div className="flex flex-col ">
             <div>
               <h5 className="font-semibold text-md ">FOLLOW US</h5>
             </div>
