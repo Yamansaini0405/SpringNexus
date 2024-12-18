@@ -84,7 +84,7 @@ const Footer = () => {
           </a>
         </div>
         <p className="font-bold text-md mt-1">
-            Develop by Yaman❤️
+            Developed by Yaman❤️
         </p>
       </div>
     </footer>
