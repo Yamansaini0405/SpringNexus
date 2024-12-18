@@ -61,7 +61,7 @@ const BlogCard = ({title, disc, author, img}) => {
       </div>
       <div className=" hidden md:block w-[200px] h-[150px] bg-gray-300  items-center justify-center text-gray-500">
         <img
-          src={blogImg}
+          src={img}
           alt="Default Background"
           className="w-full h-full object-cover"
         />

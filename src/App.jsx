@@ -13,6 +13,7 @@ import SignUp from "./components/SignUp.jsx";
 import Resources from "./components/Resources.jsx";
 import ContactForm from "./components/ContactForm.jsx";
 import Team from "./components/Team.jsx";
+import Blog from "./components/Blog.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,6 +23,7 @@ const router = createBrowserRouter(
         <Route path="/resources" element={<Resources />} />
         <Route path="/contact" element={<ContactForm />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/blog" element={<Blog/>}/>
       </Route>
       <Route path="/" element={<Layout/>}>
         <Route path="/login" element={<Login />} />

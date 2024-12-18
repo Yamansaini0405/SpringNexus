@@ -64,9 +64,9 @@ function Home() {
             <FaChevronRight className="text-blue-800" />
           </div>
         </div>
-        <BlogCard title='Spring Boot: 7 Mistakes to Avoid When Using the @Async Annotation' disc='Spring Boot does not enable asynchronous support. Ensure that the @EnableAsync annotation is added on the configuration class or the startup class to enable asynchronous functions....' author='Dylan Smith' img=''/>
-        <BlogCard />
-        <BlogCard />
+        <BlogCard title='Spring Boot: 7 Mistakes to Avoid When Using the @Async Annotation' disc='Spring Boot does not enable asynchronous support. Ensure that the @EnableAsync annotation is added on the configuration class or the startup class to enable asynchronous functions....' author='Dylan Smith' img='https://miro.medium.com/v2/resize:fit:828/format:webp/1*8lBam7TNgtjy8Ne5EkP54A.png'/>
+        <BlogCard title='Spring Boot 3 : Top 5 Features You Need to Know' disc='Explore the top 5 Spring Boot 3 features that revolutionize application development. Learn how these innovations can supercharge your apps with enhanced performance, simplicity, security, and flexibility for modern needs....' author='Amit Himani' img='https://miro.medium.com/v2/resize:fit:828/format:webp/1*F6l08e7sGKfKf9iGpnuwkg.png'/>
+        <BlogCard title='30 Must-Know Java Tips and Tricks to Boost Your Coding Skills' disc='Knowing your IDE’s shortcuts can save you a ton of time. For example, in IntelliJ IDEA, you can quickly reformat your code by pressing Ctrl + Alt + L. Got a method that needs renaming? Shift + F6 will do the trick. The more shortcuts you learn, the less time you’ll spend navigating menus....' author='Rabinarayan Patra' img='https://miro.medium.com/v2/resize:fit:828/format:webp/1*VR7JvxtmTn1CqlM4HCUfbA.jpeg'/>
       </div>
     </>
   );

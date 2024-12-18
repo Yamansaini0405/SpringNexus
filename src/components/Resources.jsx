@@ -91,7 +91,7 @@ function Resources() {
             </div>
           </div>
         </div>
-        <div className="cards md:w-[95%] w-[100%] flex justify-center items-center md:px-4 overflow-scroll scrollbar-hide flex-wrap  py-4">
+        <div className="cards md:w-[95%] w-[100%] flex justify-center items-center md:px-4 overflow-scroll scrollbar-hidden flex-wrap  py-4">
           <ResourcesCard />
           <ResourcesCard />
           <ResourcesCard />

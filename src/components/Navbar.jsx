@@ -31,7 +31,7 @@ function Navbar() {
         </div>
 
         <div
-          className={`overflow-scroll scrollbar-hide z-10 fixed top-0 left-0 h-full bg-black opacity-[0.9] text-white transition-transform duration-300 ease-in-out ${
+          className={`overflow-scroll scrollbar-hidden z-10 fixed top-0 left-0 h-full bg-black opacity-[0.9] text-white transition-transform duration-300 ease-in-out ${
             isMenu ? "translate-x-0" : "-translate-x-full"
           } md:w-[30%] w-[50%] shadow-lg`}
         >
@@ -42,7 +42,7 @@ function Navbar() {
             <NavLink to="/">
               <li className="block p-2 hover:bg-green-600 rounded">Home</li>
             </NavLink>
-            <NavLink to="/about">
+            <NavLink to="/blog">
               <li className="block p-2 hover:bg-green-600 rounded">Blogs</li>
             </NavLink>
             <NavLink to='/resources'>
@@ -69,7 +69,7 @@ function Navbar() {
               <li> Resources</li>
             </NavLink>
             <NavLink
-              to="/"
+              to="/blog"
               className=" transition-transform duration-300  hover:text-green-500 transform hover:scale-125"
             >
               <li>Blogs</li>
