@@ -40,24 +40,24 @@ function Navbar() {
           </h2>
           <ul className="p-4 space-y-2 text-center text-lg font-bold">
             <NavLink to="/">
-              <li className="block p-2 hover:bg-gray-700 rounded">Home</li>
+              <li className="block p-2 hover:bg-green-600 rounded">Home</li>
             </NavLink>
             <NavLink to="/about">
-              <li className="block p-2 hover:bg-gray-700 rounded">Blogs</li>
+              <li className="block p-2 hover:bg-green-600 rounded">Blogs</li>
             </NavLink>
             <NavLink to='/resources'>
-              <li className="block p-2 hover:bg-gray-700 rounded">Resources</li>
+              <li className="block p-2 hover:bg-green-600 rounded">Resources</li>
             </NavLink>
-            <NavLink to='/contact'><li className="block p-2 hover:bg-gray-700 rounded">Contact</li></NavLink>
+            <NavLink to='/contact'><li className="block p-2 hover:bg-green-600 rounded">Contact</li></NavLink>
             
-            <li className="block p-2 hover:bg-gray-700 rounded">option</li>
-            <li className="block p-2 hover:bg-gray-700 rounded">option</li>
-            <li className="block p-2 hover:bg-gray-700 rounded">option</li>
-            <li className="block p-2 hover:bg-gray-700 rounded">option</li>
-            <li className="block p-2 hover:bg-gray-700 rounded">option</li>
-            <li className="block p-2 hover:bg-gray-700 rounded">option</li>
-            <li className="block p-2 hover:bg-gray-700 rounded">option</li>
-            <li className="block p-2 hover:bg-gray-700 rounded">option</li>
+            <li className="block p-2 hover:bg-green-600 rounded">option</li>
+            <li className="block p-2 hover:bg-green-600 rounded">option</li>
+            <li className="block p-2 hover:bg-green-600 rounded">option</li>
+            <li className="block p-2 hover:bg-green-600 rounded">option</li>
+            <li className="block p-2 hover:bg-green-600 rounded">option</li>
+            <li className="block p-2 hover:bg-green-600 rounded">option</li>
+            <li className="block p-2 hover:bg-green-600 rounded">option</li>
+            <li className="block p-2 hover:bg-green-600 rounded">option</li>
           </ul>
         </div>
         <div className="options  text-white hidden md:block">

@@ -64,7 +64,7 @@ function Home() {
             <FaChevronRight className="text-blue-800" />
           </div>
         </div>
-        <BlogCard />
+        <BlogCard title='Spring Boot: 7 Mistakes to Avoid When Using the @Async Annotation' disc='Spring Boot does not enable asynchronous support. Ensure that the @EnableAsync annotation is added on the configuration class or the startup class to enable asynchronous functions....' author='Dylan Smith' img=''/>
         <BlogCard />
         <BlogCard />
       </div>

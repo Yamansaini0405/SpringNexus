@@ -8,11 +8,11 @@ import {
   FaHeart,
 } from "react-icons/fa";
 
-const BlogCard = () => {
-    const [title, setTitle] = useState("Spring Boot: 7 Mistakes to Avoid When Using the @Async Annotation")
-    const [author, setAuthor] = useState("Dylan Smith")
+const BlogCard = ({title, disc, author, img}) => {
+    // const [title, setTitle] = useState("Spring Boot: 7 Mistakes to Avoid When Using the @Async Annotation")
+    // const [author, setAuthor] = useState("Dylan Smith")
     const [date, setDate] = useState("Dec 15th, 2024")
-    const [disc, setDisc] = useState(" Spring Boot does not enable asynchronous support. Ensure that the @EnableAsync annotation is added on the configuration class or the startup class to enable asynchronous functions....")
+    // const [disc, setDisc] = useState(" Spring Boot does not enable asynchronous support. Ensure that the @EnableAsync annotation is added on the configuration class or the startup class to enable asynchronous functions....")
 
     const [like, setLike] = useState("1.3k")
     const [comment, setComment] = useState("465")
