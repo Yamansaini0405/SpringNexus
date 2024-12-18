@@ -71,7 +71,7 @@ const Footer = () => {
         </div>
       </div>
       <hr className="md:my-8 my-2" />
-      <div className="container w-[90%] text-center mx-auto mt-8 flex flex-col md:flex-row justify-center items-center text-sm md:space-x-8 pb-4 md:pb-0">
+      <div className="container w-[90%] text-center mx-auto md:mt-8 mt-4 flex flex-col md:flex-row justify-center items-center text-sm md:space-x-8 pb-4 md:pb-0">
         <p>
           &copy; 2024 SpringNexus. Java Community, India. All Rights Reserved.
         </p>
