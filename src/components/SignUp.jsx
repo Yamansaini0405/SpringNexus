@@ -74,7 +74,7 @@ function SignUp() {
   return (
     <>
       <div className="bg w-[100%] h-[100vh] flex justify-center items-center">
-        <div className="bg-white w-[90%] md:w-[60%] h-[80%] rounded-xl shadow-2xl flex justify-center items-center">
+        <div className="bg-white w-[90%] md:w-[60%] py-6 rounded-xl shadow-2xl flex justify-center items-center">
           <div className="max-w-[45%] h-[80%] hidden sm:block justify-center items-center">
             <img src={SignupImg} alt="" />
           </div>

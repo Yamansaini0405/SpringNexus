@@ -19,7 +19,7 @@ function Login() {
   return (
     <>
       <div className="bg w-[100%] h-[100vh] flex justify-center items-center">
-        <div className="bg-white w-[90%] md:w-[60%] h-[70%] rounded-xl shadow-2xl flex justify-center items-center">
+        <div className="bg-white w-[90%] md:w-[60%] py-6 rounded-xl shadow-2xl flex justify-center items-center">
           <div className="content md:px-8 md:pl-12 md:w-[50%] w-[90%] ">
             <h2 className="md:text-4xl text-3xl font-bold">
               Hello, <br />
