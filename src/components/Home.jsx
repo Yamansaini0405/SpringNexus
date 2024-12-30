@@ -15,13 +15,13 @@ function Home() {
     <>
     
       <div className="flex flex-col justify-center items-center   md:w-[100%] w-[95%] m-auto pb-8 mt-6">
-        <div className="flex flex-col md:flex-row justify-center items-center md:gap-32 md:mt-8 md:w-[100%] w-[95%] m-auto">
+        <div className="flex flex-col md:flex-row justify-center items-center md:gap-32 md:mt-8  w-[95%] m-auto">
           <div>
-            <h3 className="text-3xl md:text-7xl font-bold text-white m-auto w-[90%] md:w-[100%] ">
+            <h3 className="text-3xl md:text-5xl lg:text-7xl font-bold text-white m-auto w-[90%] md:w-[100%] ">
               Welcome to <br /> <span className="text-[#6db33f] ">Spring</span>
               Nexus
             </h3>
-            <p className=" m-auto text-sm md:text-xl mt-[1rem] md:mt-[1.5rem] text-white md:w-[40rem] w-[90%] font-[Inter] ">
+            <p className=" m-auto text-sm md:text-lg lg:text-xl mt-[1rem] md:mt-[1.5rem] text-white md:w-[40rem] w-[90%] font-[Inter] ">
               The vibrant community for Spring Boot enthusiasts! Collaborate,
               learn, and share insights on building roust, scalable
               applications. Join us to accelerate your journey with expert tips,

@@ -77,11 +77,11 @@ function Login() {
               <hr className="w-[50%] border border-gray-600 mt-1 mx-1" />
             </div>
             <div className="options flex justify-start items-center gap-6 px-2 mt-2 mb-2 md:w-[80%] w-[95%]">
-              <div className="google border border-black text-lg  py-2 w-[45%] flex justify-center items-center rounded-lg">
-                <FcGoogle className="text-2xl cursor-pointer" /> &nbsp; Google
+              <div className="google border border-black text-lg  py-2 w-[45%] flex justify-center items-center rounded-lg cursor-pointer">
+                <FcGoogle className="text-2xl " /> &nbsp; Google
               </div>
-              <div className="apple border border-black  text-lg  py-2 w-[45%] flex justify-center items-center rounded-lg">
-                <FaGithub className="text-2xl cursor-pointer" />
+              <div className="apple border border-black  text-lg  py-2 w-[45%] flex justify-center items-center rounded-lg cursor-pointer">
+                <FaGithub className="text-2xl " />
                 &nbsp; Github
               </div>
             </div>
